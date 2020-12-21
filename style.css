@@ -1,5 +1,5 @@
 header img {
-border-radius: 20px 150px;
+  border-radius: 10% 10%;
 }
 
 body {
@@ -75,4 +75,21 @@ footer{
   color: #000000;
   height: 10%;
   margin-top: auto;
+}
+
+
+#paralax {
+  background: url(home.jpg) center 0 repeat fixed; min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#paralax article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
 }
